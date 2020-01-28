@@ -1,0 +1,4 @@
+[submodule "fawkes"]
+	path = fawkes
+	url = git@github.com:fawkes-nsdi20/fawkes.git
+	branch = brave_adblocker
