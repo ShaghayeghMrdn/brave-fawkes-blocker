@@ -1,0 +1,8 @@
+# data files
+*.txt
+# except the url files
+!*/data/*-urls.txt
+
+# auto-generated  
+*Cargo.lock
+*target*
