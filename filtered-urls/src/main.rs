@@ -36,6 +36,7 @@ fn main() {
 
     // Analyzing default page load URLs
     let default_urls = read_file(&default_urls_file);
+    println!("total:{:?}", default_urls.len());
 
     let mut default_matched_count = 0;
     for url in default_urls {
