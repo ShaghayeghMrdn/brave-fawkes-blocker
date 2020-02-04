@@ -6,3 +6,5 @@
 # auto-generated  
 *Cargo.lock
 *target*
+.RData
+.Rhistory
