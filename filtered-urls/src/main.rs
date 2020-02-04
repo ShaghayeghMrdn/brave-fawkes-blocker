@@ -44,7 +44,7 @@ fn main() {
             default_matched_count += 1
         }
     }
-    println!("# of matched urls in the default page: {:?}", default_matched_count);
+    println!("default:{:?}", default_matched_count);
 
     // Analyzing Fawkes static template URLs
     let nopatch_urls = read_file(&nopatch_urls_file);
@@ -56,7 +56,7 @@ fn main() {
             nopatch_matched_count += 1
         }
     }
-    println!("# of matched urls in the static template: {:?}", nopatch_matched_count);
+    println!("fawkes static:{:?}", nopatch_matched_count);
 
 }
 
