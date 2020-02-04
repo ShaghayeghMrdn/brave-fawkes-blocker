@@ -1,4 +1,4 @@
-default, fawkes_static, default_per, fawkes_static_per
+page_name, default, fawkes_static, default_per, fawkes_static_per
 tvguide, 85, 2, 0.38, 0.01
 ask, 0, 0, 0.00, 0.00
 icims, 10, 0, 0.13, 0.00
